@@ -1,4 +1,4 @@
-6<body style="font-family: Arial, sans-serif; background-color: #f0f0f0;">
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0;">
     <header style="background-color: #4CAF50; color: white; padding: 10px 0; text-align: center;">
         <h1 style="font-size: 20px; margin-bottom: 20px;">Parallel implementation of Δ-Stepping on GPUs using CUDA</h1>
     </header>
