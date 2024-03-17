@@ -1,4 +1,4 @@
-<body style="font-family: Arial, sans-serif; background-color: #f0f0f0;">
+6<body style="font-family: Arial, sans-serif; background-color: #f0f0f0;">
     <header style="background-color: #4CAF50; color: white; padding: 10px 0; text-align: center;">
         <h1 style="font-size: 20px; margin-bottom: 20px;">Parallel implementation of Δ-Stepping on GPUs using CUDA</h1>
     </header>
@@ -6,7 +6,7 @@
     This project features a parallel implementation of Δ-Stepping algorithm on NVIDIA GPUs using CUDA (Compute Unified Device Architecture). 
     </p>
     <div style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; text-align: justify; padding: 20px;">
-    <p><strong>Delta stepping algorithm proceeds as follows:</strong></p>
+    <p><strong>Parallel delta stepping algorithm proceeds as follows:</strong></p>
     <p><strong>Initialize Buckets:</strong> Start by creating buckets, which are arrays that group nodes based on thier distance from source. For instance, bucket 0 contains nodes with tentative distances from the source node within the range [0, delta).</p>
     <p><strong>Place Source Node:</strong> Put the source node into bucket 0.</p>
     <p><strong>Iterative Process:</strong></p>
